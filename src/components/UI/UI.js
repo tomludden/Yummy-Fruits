@@ -12,7 +12,7 @@ document.body.appendChild(homeButton)
 
 // Add functionality to the button (navigate to the homepage when clicked)
 homeButton.addEventListener('click', function () {
-  window.location.href = 'https://dynamic-kataifi-82abbe.netlify.app/' // You can change the URL to your desired homepage
+  window.location.href = '/' // You can change the URL to your desired homepage
 })
 
 // Game title

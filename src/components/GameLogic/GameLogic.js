@@ -8,12 +8,21 @@ import {
   livesDisplay,
   startButton,
   gameOverPopup
-} from '/src/components/UI/UI.js'
+} from '/src/components/games/Game-2/Yummy Fruits/src/components/UI/UI.js'
 
-let gameOverAudio = new Audio('/src/assets/audio/mariobros-gameover.mp3')
-let fruitCollectionAudio = new Audio('/src/assets/audio/roblox-yummy.mp3')
-let bombAudio = new Audio('/src/assets/audio/explosion_1.mp3')
-let sweetCollectionAudio = new Audio('/src/assets/audio/ringtone_7.mp3')
+let gameOverAudio = new Audio(
+  '/src/components/games/Game-2/Yummy Fruits/src/assets/audio/mariobros-gameover.mp3'
+)
+let fruitCollectionAudio = new Audio(
+  '/src/components/games/Game-2/Yummy Fruits/src/assets/audio/roblox-yummy.mp3'
+)
+let bombAudio = new Audio(
+  '/src/components/games/Game-2/Yummy Fruits/src/assets/audio/explosion_1.mp3'
+)
+let sweetCollectionAudio = new Audio(
+  '/src/components/games/Game-2/Yummy Fruits/src/assets/audio/ringtone_7.mp3'
+)
+
 let fruitImages = [
   'https://seeklogo.com/images/B/bananas-logo-D84FBE087F-seeklogo.com.png',
   'https://png.pngtree.com/png-clipart/20230126/original/pngtree-fresh-red-apple-png-image_8930987.png',
